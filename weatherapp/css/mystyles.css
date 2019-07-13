@@ -1,0 +1,61 @@
+body{
+  background-color:  skyblue;
+  background:url("https://s-media-cache-ak0.pinimg.com/564x/af/41/c2/af41c2c5e2f92272b9c7e8044e70279f.jpg");
+   background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Bree Serif,sans-serif;
+/*   padding:300px; */
+
+}
+
+
+#outpu{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /*
+  This doesn't work
+  margin-left: -25%;
+  margin-top: -25%;
+  */
+
+  width: 53%;
+  padding: 40px;
+  border-radius: 10px;
+  border-style:solid;
+  background: white;
+  color: black;
+  }
+
+
+body h1{
+  padding-bottom: 15px;
+  font-size:65px;
+  padding-top:40px;
+/*   padding-left: 20px;
+  padding-right: 20px; */
+  }
+
+.location{
+  font-size:35px;
+ }
+
+#tempdiv{
+  font-size:35px;
+  padding:15px;
+}
+
+#toggle{
+  border:grey;
+  border-style: outset;
+  border-radius:5px;
+  padding:3px;
+  background:black;
+  color:white;
+  font-family: Bree Serif,sans-serif;
+}
+#description{
+  font-size:35px;
+}
